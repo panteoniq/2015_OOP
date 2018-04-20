@@ -1,0 +1,41 @@
+﻿빌드 시작: 2018-04-20 오후 4:10:03
+     1>2 노드의 "D:\system32\금오공대\2학년 1학기\객체\테트리스!\_Tetris\03_20121158 정대한\TetrisFrame\Tetris.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cpp Controller.cpp main.cpp Point.cpp Score.cpp Tetris.cpp Tetromino.cpp
+         Tetromino.cpp
+         Tetris.cpp
+     1>d:\system32\금오공대\2학년 1학기\객체\테트리스!\_tetris\03_20121158 정대한\tetrisframe\tetris.cpp(105): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(133) : 'kbhit' 선언을 참조하십시오.
+     1>d:\system32\금오공대\2학년 1학기\객체\테트리스!\_tetris\03_20121158 정대한\tetrisframe\tetris.cpp(162): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 'getch' 선언을 참조하십시오.
+     1>d:\system32\금오공대\2학년 1학기\객체\테트리스!\_tetris\03_20121158 정대한\tetrisframe\tetris.cpp(212): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 'getch' 선언을 참조하십시오.
+         Score.cpp
+         Point.cpp
+         main.cpp
+     1>d:\system32\금오공대\2학년 1학기\객체\테트리스!\_tetris\03_20121158 정대한\tetrisframe\main.cpp(15): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\system32\금오공대\2학년 1학기\객체\테트리스!\_tetris\03_20121158 정대한\tetrisframe\main.cpp(57): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(133) : 'kbhit' 선언을 참조하십시오.
+         Controller.cpp
+     1>d:\system32\금오공대\2학년 1학기\객체\테트리스!\_tetris\03_20121158 정대한\tetrisframe\controller.cpp(16): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 'getch' 선언을 참조하십시오.
+     1>d:\system32\금오공대\2학년 1학기\객체\테트리스!\_tetris\03_20121158 정대한\tetrisframe\controller.cpp(19): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 'getch' 선언을 참조하십시오.
+         Board.cpp
+     1>d:\system32\금오공대\2학년 1학기\객체\테트리스!\_tetris\03_20121158 정대한\tetrisframe\board.cpp(36): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Tetris.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\Tetris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Tetris.lib" /MACHINE:X86 /SAFESEH .\Debug\Board.obj
+         .\Debug\Controller.obj
+         .\Debug\main.obj
+         .\Debug\Point.obj
+         .\Debug\Score.obj
+         .\Debug\Tetris.obj
+         .\Debug\Tetromino.obj
+     1>Board.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+         Tetris.vcxproj -> D:\system32\금오공대\2학년 1학기\객체\테트리스!\_Tetris\03_20121158 정대한\TetrisFrame\.\Debug\Tetris.exe
+     1>"D:\system32\금오공대\2학년 1학기\객체\테트리스!\_Tetris\03_20121158 정대한\TetrisFrame\Tetris.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:07.90
