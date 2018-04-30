@@ -1,4 +1,4 @@
-# 2016-Object-Oriented-Programming(C++)
+# 2015-Object-Oriented-Programming(C++)
 
 ## Summary
 2학년 1학기 수강한 객체지향프로그래밍(C++)과목에서 마지막 과제로 구현한 테트리스의 소스 코드와 실행 파일, 그리고 과제에 대한 설명이 담긴 ppt가 있습니다.
